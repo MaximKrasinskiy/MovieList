@@ -1,0 +1,22 @@
+
+img{
+    width: 200px;
+    
+}
+h1{
+    color: darkblue;
+    
+}
+.movie__name{
+    font-size: 20px;
+    font-weight: 600;
+    color: darkgreen;
+}
+a{
+    text-decoration: none;
+    color: rgb(19, 16, 16);
+}
+a:hover{
+    background-color:darkred;
+    border-radius: 10%;
+}
