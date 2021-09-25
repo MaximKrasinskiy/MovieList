@@ -1,5 +1,12 @@
 
-
+.App{
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.App-header{
+text-align: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

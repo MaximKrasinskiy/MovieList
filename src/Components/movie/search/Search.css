@@ -1,0 +1,23 @@
+.movie__search{
+    
+    display: flex;
+    align-items: center;
+}
+
+.input{
+    width: 90%;
+    padding:0 20px 0 20px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+}
+.input::placeholder{
+text-transform: uppercase;
+
+}
+.btn{
+    height: 50px;
+    width: 10%;
+    text-transform: uppercase;
+}

@@ -1,7 +1,9 @@
 
 import './App.css';
-import MovieList from './Components/movie/MovieList';
-import Title from './Components/movie/Title';
+import PropTypes from 'prop-types'
+import MovieList from './Components/movie/MovieList/MovieList';
+import Title from './Components/movie/Title/Title';
+import Search from './Components/movie/search/Search';
 
 const filmData = 
   {
@@ -14,9 +16,11 @@ const filmData =
 function App(props) {
   console.log('propsass',props)
   return (
-    <div className="App">
+      <div className="App">
       <header className="App-header">
+      
         <Title titleText={'main title'}/>
+        <Search/>
         <MovieList data={filmData}/> 
         {/* data = {filmData} */}
 
@@ -27,5 +31,7 @@ function App(props) {
 
 }
 
-
+App.propTypes={
+  data:PropTypes.string
+}
 export default App;
